@@ -29,7 +29,7 @@ with open(csv_file, 'w', newline='', encoding='utf-8') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=fieldNames)
     writer.writeheader()
     writer.writerows(complete_data)
-print(f"Data has been written to {csv_file}")   
+print(f"Data has been written in to {csv_file}")   
 
 # os.remove('scraped_books.csv')
 
